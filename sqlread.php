@@ -6,7 +6,7 @@ MIT License
 /*參考此內容進行個人需求修正:https://github.com/a0000778/lib_php_db_mysql/blob/master/db_pdo.class.php
 修改於:2015/07/29
 修改者:bao
-0729 v0.1:連接、離線Mysql及撰寫select密碼
+0729 v0.1:連接、離線Mysql
 */
 class DB_pdo{
   private $db;
