@@ -1,0 +1,11 @@
+<html>
+<body>
+<form method="POST" action="hash.html">
+  帳號:  <input type="text" name="hash_data" value=""/><br/>
+  <input type="submit" name="submit1">
+</form>
+<?php 
+if($_POST == null){echo "null data";}
+echo $_POST['hash_data'] ?>
+</body>
+</html>
